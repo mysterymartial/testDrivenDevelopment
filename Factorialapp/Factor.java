@@ -13,28 +13,36 @@ public class Factor{
 			return factoria;
 
 
+	
+
+
 }
 
 
 
-	//public static int reverse(int number){
+	public static int reverse(int number){
 	
-	//int orgnumber= number;
-	//int reverse=;
+		int reverse =0;
 
-	//while(number!=0){
+		while(number>0){
 
-		//reverse= reverse * 10 + reverse % 10;
-		//number = number/10;
-	//}	
+			reverse = reverse * 10 + (number % 10);
+			number = number / 10;
+	
 
-		//return reverse;		
+			}
+
+
+			return reverse;
+
+}
+	
 			
 
 		
 
 
-//
+
 	
 
 	
